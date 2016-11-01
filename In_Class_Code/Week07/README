@@ -1,0 +1,8 @@
+Note:
+
+In order to compile pthreads programs, you need to add the argument -lpthread
+to the gcc command.
+
+For example:
+gcc pthread_simple.c -lpthread
+./a.out
