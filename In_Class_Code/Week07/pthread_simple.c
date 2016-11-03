@@ -1,5 +1,5 @@
 /******************************************************************************
-* FILE: hello.c
+* FILE: pthread_simple.c
 * DESCRIPTION:
 *   A "hello world" Pthreads program.  Demonstrates thread creation and
 *   termination.
