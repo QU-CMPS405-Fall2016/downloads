@@ -1,9 +1,8 @@
 /******************************************************************************
  *  Compilation:  javac EchoServer.java
  *  Execution:    java EchoServer port
- *  Dependencies: In.java Out.java
  *  
- *  Runs an echo server which listents for connections on port 4444,
+ *  Runs an echo server which listens for connections on port 4444,
  *  and echoes back whatever is sent to it.
  *
  *
