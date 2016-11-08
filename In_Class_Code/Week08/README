@@ -1,0 +1,11 @@
+To compile
+==========
+javac *.java
+
+To run the server
+=================
+java EchoServer
+
+To run the client
+=================
+java EchoClient
