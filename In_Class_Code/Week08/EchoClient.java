@@ -18,7 +18,7 @@ public class EchoClient {
 		// Create the scanner to get input from the user
 		Scanner userInput = new Scanner(System.in);
 
-		// repeatedly wait for connections, and process
+		// Send user input to the server
 		while (true) {
 			// Get a line of input from the user
 			System.out.print("prompt> ");
