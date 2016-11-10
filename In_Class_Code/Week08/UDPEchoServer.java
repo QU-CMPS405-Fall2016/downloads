@@ -31,8 +31,9 @@ public class UDPEchoServer {
 						packet.getAddress(), packet.getPort());
 				server.send(sendPacket);
 			} catch (Exception e) {
-
+				break;
 			}
 		}
+		server.close();
 	}
 }
