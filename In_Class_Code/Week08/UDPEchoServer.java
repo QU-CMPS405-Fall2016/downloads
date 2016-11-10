@@ -22,7 +22,7 @@ public class UDPEchoServer {
 				server.receive(packet);
 
 				// Print out info about the received packet
-				System.out.printf("Received packet from client %s:%s with length %s with the body:\n%s\n",
+				System.out.printf("Received packet from %s:%s with length %s with the body:\n%s\n",
 						packet.getAddress(), packet.getPort(), packet.getLength(),
 						new String(packet.getData(), 0, packet.getLength()));
 
