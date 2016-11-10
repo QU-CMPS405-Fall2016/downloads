@@ -1,22 +1,3 @@
-
-/******************************************************************************
- *  Compilation:  javac EchoServer.java
- *  Execution:    java EchoServer port
- *  Dependencies: In.java Out.java
- *  
- *  Runs an echo server which listents for connections on port 4444,
- *  and echoes back whatever is sent to it.
-  *
- *  % java EchoServer 4444
- *
-  *  Limitations
- *  -----------
- *  The server is not multi-threaded, so at most one client can connect
- *  at a time.
- *  
- *  Courtesy of http://introcs.cs.princeton.edu/java/84network/EchoServer.java
-  ******************************************************************************/
-
 import java.net.Socket;
 import java.util.Scanner;
 import java.io.BufferedReader;
