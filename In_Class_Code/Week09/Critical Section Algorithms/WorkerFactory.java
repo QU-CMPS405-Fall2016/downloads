@@ -7,8 +7,8 @@ public class WorkerFactory {
     	 *implementation of a lock.
     	 */
     	MutualExclusion lock = new Algorithm_3();
-      	(new Thread(new Worker("W1",1,lock))).start();
-      	(new Thread(new Worker("W2",2,lock))).start();
+      	(new Thread(new Worker("W1",0,lock))).start();
+      	(new Thread(new Worker("W2",1,lock))).start();
    	}
 
    	public static void main(String[] args){
