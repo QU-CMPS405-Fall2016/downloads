@@ -13,16 +13,17 @@ public class SimpleThread extends Thread {
 
 	public void run() {
 		int arr[] = ds.getNums(10);
-		
+
 		while (arr != null) {
 			howm += 10;
-			
+
 			for (int i : arr) {
 				sum += i;
 			}
 			arr = ds.getNums(10);
 		}
 
-		System.out.printf("Threading quiting. Sum is %d and How Many is %d\n", sum, howm);
+		System.out.printf("Threading quiting. Sum is %d and How Many is %d\n", 
+				sum, howm);
 	}
 }
