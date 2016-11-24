@@ -26,7 +26,7 @@ public class BoundedBuffer implements Buffer {
         full = new Semaphore(0);
     }
 
-    public synchronized void insert(Object item) {
+    public void insert(Object item) {
         System.out.println("Producer entered insert method");
         empty.acquire();
         mutex.acquire();
@@ -40,7 +40,7 @@ public class BoundedBuffer implements Buffer {
         System.out.println("Producer is leaving insert method");
     }
 
-    public synchronized Object remove() {
+    public Object remove() {
         System.out.println("Consumer entered remove method");
         full.acquire();
         mutex.acquire();
